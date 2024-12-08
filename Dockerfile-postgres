@@ -1,0 +1,2 @@
+FROM postgres:16-alpine
+ENV POSTGRES_USER=postgres POSTGRES_PASSWORD=1111 POSTGRES_DB=djangocrud
