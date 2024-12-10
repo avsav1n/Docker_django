@@ -17,7 +17,7 @@ docker build . -t django:v1
 ## Запуск контейнеров
 ### Запуск контейнера с базой данных postgresql
 ```bash
-docker run -d --network -net --name dbase postgres:v1
+docker run -d --network project-net --name dbase postgres:v1
 ```
 ### Запуск контейнера с nginx сервером
 ```bash
